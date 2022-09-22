@@ -1,0 +1,23 @@
+{
+  "name": "react-native-floating-example",
+  "displayName": "Floating Example",
+  "expo": {
+    "name": "react-native-floating-example",
+    "slug": "react-native-floating-example",
+    "description": "Example app for react-native-floating",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "jsEngine": "hermes",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
