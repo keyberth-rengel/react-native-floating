@@ -15,6 +15,9 @@ Library to generate picture-in-picture of any component within your applications
 
 These instructions will help you set up your project correctly.
 
+<img src="https://user-images.githubusercontent.com/45502428/192113844-fcdd0771-429e-4716-9929-4d8baaa88fed.gif" width="200px" />
+
+
 ### Prerequisites
 
 What things you need to install the software and how to install them.
