@@ -64,13 +64,21 @@ export const Floating: React.FC<FloatingParams> = ({
         style={[
           // eslint-disable-next-line react-native/no-inline-styles
           {
-            position: 'absolute',
             height: DEFAULT_HEIGHT,
             width: DEFAULT_WIDTH,
             borderRadius: BORDER_RADIUS,
             aspectRatio: 1,
             backgroundColor: 'blue',
             opacity: 0.8,
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 1,
+            },
+            shadowOpacity: 0.22,
+            shadowRadius: 2.22,
+
+            elevation: 3,
           },
           rStyle,
         ]}
