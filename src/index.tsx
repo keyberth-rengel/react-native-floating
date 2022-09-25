@@ -70,7 +70,6 @@ export const Floating: React.FC<FloatingParams> = ({
             borderRadius: BORDER_RADIUS,
             aspectRatio: 1,
             backgroundColor: 'blue',
-            opacity: 0.8,
           },
           rStyle,
         ]}
