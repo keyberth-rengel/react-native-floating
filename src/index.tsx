@@ -20,6 +20,7 @@ type FloatingParams = {
 };
 
 export const Floating: React.FC<FloatingParams> = ({
+  children,
   item,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
@@ -74,7 +75,7 @@ export const Floating: React.FC<FloatingParams> = ({
           rStyle,
         ]}
       >
-        {item}
+        {children || item}
       </Animated.View>
     </GestureDetector>
   );
