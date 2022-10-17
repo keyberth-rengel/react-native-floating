@@ -47,6 +47,22 @@ Or yarn
 yarn add react-native-floating
 ```
 
+### Project installation
+
+#### **babel.config.js**
+
+```javascript
+  module.exports = {
+    presets: [
+      ...
+    ],
+    plugins: [
+      ...
+      'react-native-reanimated/plugin',
+    ],
+  };
+```
+
 ### Android installation
 <details>
   <summary>Android details</summary>
